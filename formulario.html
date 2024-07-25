@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Usuario</title>
+</head>
+<body>
+    <h2>Formulario de Usuario</h2>
+    <!-- Formulario que envía los datos a procesar.php usando el método POST -->
+    <form action="procesar.php" method="post">
+        <!-- Campo para ingresar el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <!-- Campo para ingresar el correo electrónico -->
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br><br>
+        <!-- Botón para enviar el formulario -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
